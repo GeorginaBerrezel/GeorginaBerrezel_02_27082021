@@ -47,6 +47,13 @@ h1 {
 h3 {
     padding-bottom: 20px;
 }
+
+h4 {
+  width: 150px;
+  padding: 10px;
+}
+
+
 /* GENERALE */
   body {
     font-family: 'Raleway', sans-serif;
@@ -110,15 +117,29 @@ li {
 }
 
 button {
-text-decoration: none;
-border: none;
-background: none;
-margin-left: auto;
-align-items: center;
+
+  text-decoration: none;
+  border: none;
+  background: none;
+  margin-left: auto;
+  align-items: center;
+  background-color: #0065fc;
+  border-radius: 25px;
 }
 
 .recherche {
 
+}
+
+.localisation {
+  align-items: center;
+  border: solid 1px;
+  border-radius: 25px;
+  color: #000000;
+  display: flex;
+  width: 350px;
+  height: 20px;
+  padding: 20px;
 }
 
 /* CONTENU */
