@@ -49,8 +49,7 @@ h3 {
 }
 
 h4 {
-  width: 150px;
-  padding: 10px;
+  width: auto;
 }
 
 
@@ -123,8 +122,8 @@ button {
   background: none;
   margin-left: auto;
   align-items: center;
-  background-color: #0065fc;
-  border-radius: 25px;
+ /* background-color: #0065fc;
+  border-radius: 25px;*/
 }
 
 .recherche {
@@ -133,13 +132,41 @@ button {
 
 .localisation {
   align-items: center;
-  border: solid 1px;
+ /* border: solid 1px;
   border-radius: 25px;
-  color: #000000;
+  color: #000000;*/
   display: flex;
   width: 350px;
   height: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  /*padding: 20px;*/
+}
+
+.icone {
+  background-color: #F2F2F2;
+  border-radius: 20px 0 0 20px;
   padding: 20px;
+  width: 20px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.boutton {
+  background-color: #0065fc;
+  border-radius: 0 20px 20px 0;
+  color: #FFFFFF;
+  position: relative;
+  padding: 4px;
+  float: right;
+  width: 100px;
+  
+ 
 }
 
 /* CONTENU */
@@ -158,6 +185,19 @@ button {
     max-width: 800px;
   }
 
+  .selection {
+    display: flex;
+    border-radius: 25px;
+  }
+i {
+  display: flex;
+}
+
+  #fas fa-money-bill-wave {
+    background-color: #0065fc;
+    border-radius: 25px;
+  }
+
 .hosting {
     display: flex;
     max-width: 1350px;
@@ -167,7 +207,7 @@ button {
     background-color:#f2f2f2;
     border-radius: 20px;
     flex: row;
-    padding: 10px;
+    padding: 40px;
 }
 
 .card {
@@ -179,33 +219,42 @@ button {
   background-color: white;
   border-radius: 20px;
   box-shadow: 5px 5px 2px #adadad18;
-
   justify-content: space-between;
-  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
   padding: 5px;
-  width: 250px;
-  height: 200px;
+  width: 310px;
+  height: 280px;
 }
 
-span {
-  font: bold;
+.texte {
+  padding-left: 20px;
 }
+
+img {
+  width: 100%;
+  height: 150px;
+  border-radius: 20px 20px 0 0;
+}
+
 
 .populaires {
   background-color:#f2f2f2;
   border-radius: 20px;
   margin-left: 20px;
-  padding: 10px;
+  padding: 40px;
   width: 100%;
 }
 
 .cardpop {
+  display: flex;
   background-color: white;
   border-radius: 20px;
   box-shadow: 5px 5px 2px #adadad18;
-  margin: 10px;
-  padding: 5px;
-  width: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  width: 350px;
   height: 150px;
  /*  width: 350px;
   height: 200px; */
@@ -218,61 +267,66 @@ span {
 }
 
 .act {
-  display: flex;
+ /* height: 400px;
+  padding: 10px;*/
+  display:flex;
+}
+
+.box {
+
+
+ 
+}
+.box_vieuxport {
+  border-radius: 20px;
+  box-shadow: 5px 5px 2px #adadad18;
+  margin: 10px;
+  padding: 5px;
+  width: 250px;
   height: 400px;
-  padding: 10px;
 }
 
-.box1 {
+.box_fortdepomegues {
   border-radius: 20px;
   box-shadow: 5px 5px 2px #adadad18;
   margin: 10px;
   padding: 5px;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
 }
 
-.box2 {
+.box_ilesdufrioul {
   border-radius: 20px;
   box-shadow: 5px 5px 2px #adadad18;
   margin: 10px;
   padding: 5px;
-  width: 400px;
-  height: 70px;
-}
-
-.box3 {
-  border-radius: 20px;
-  box-shadow: 5px 5px 2px #adadad18;
-  margin: 10px;
-  padding: 5px;
-  width: 400px;
-  height: 30px;
-}
-
-.box4 {
-  border-radius: 20px;
-  box-shadow: 5px 5px 2px #adadad18;
-  margin: 10px;
-  padding: 5px;
-  width: 400px;
+  width: 250px;
   height: 100px;
 }
 
-.box5 {
+.box_parcnational {
   border-radius: 20px;
   box-shadow: 5px 5px 2px #adadad18;
   margin: 10px;
   padding: 5px;
-  width: 400px;
-  height: 50px;
+  width: 250px;
+  height: 400px;
 }
 
-.box6 {
+.box_notredame {
   border-radius: 20px;
   box-shadow: 5px 5px 2px #adadad18;
   margin: 10px;
   padding: 5px;
-  width: 400px;
+  width: 250px;
+  height: 100px;
+}
+
+.box_parclongchamp{
+  border-radius: 20px;
+  box-shadow: 5px 5px 2px #adadad18;
+  margin: 10px;
+  padding: 5px;
+  width: 250px;
   height: 50px;
 }
