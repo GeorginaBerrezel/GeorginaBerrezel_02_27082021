@@ -42,16 +42,32 @@ style.css
   }
 
 h1 {
-
+  font-size: 25px;
 }
+
+h2 {
+  font-size: 25px;
+}
+
 h3 {
+  font-size: 22px;
     padding-bottom: 20px;
 }
 
 h4 {
+  font-size: 22px;
+  line-height: normal;
   width: auto;
 }
 
+h5 {
+
+}
+
+p {
+  font-size: 22px;
+  line-height: normal;
+}
 
 /* GENERALE */
   body {
@@ -89,18 +105,22 @@ header {
   align-items: center;*/
 }
 
-.reservia {
-  width: 100%;
-  display: flex;
-  align-items: center;
- /*  background-color: cornsilk;
-  display: flex;
-  flex-direction: row; */
+.content {
+  max-width: auto;
+  margin: 50px;
 }
 
+.reservia {
+  align-items: center;
+  display: flex;
+  max-width: auto;
 
-nav {
+}
+
+.navigation {
 display: flex;
+justify-content: flex-end;
+background-color: #0065fc;
 }
 
 ul {
@@ -119,10 +139,14 @@ button {
   text-decoration: none;
   border: none;
   background: none;
+  color: #0065fc;
   margin-left: auto;
   align-items: center;
- /* background-color: #0065fc;
-  border-radius: 25px;*/
+  font-size: 18px;
+}
+
+img {
+  object-fit: cover;
 }
 
 .recherche {
@@ -152,27 +176,21 @@ button {
 input[type=text] {
   width: 100%;
   padding: 20px 20px;
-  margin: 8px 0;
+  margin: 18px 0;
   box-sizing: border-box;
+  font-size: 20px;
 }
 
 .boutton {
   background-color: #0065fc;
   border-radius: 0 20px 20px 0;
   color: #FFFFFF;
-  position: relative;
-  padding: 4px;
-  font-size: 13px;
-  /*float: right;*/
-  width: 100px;
-  
- 
+  padding: 10px;
+  font-size: 15px;
 }
-.content {
-  max-width: auto;
-  margin: 50px;
-}
+
 /* CONTENU */
+
 .container {
     /*max-width: 1350px;*/
     display: flex;
@@ -182,36 +200,35 @@ input[type=text] {
    /* background-color: cadetblue;*/
 }
 
-  .filtres {
+.filtres {
     display: flex;
-    justify-content: space-between;
-   /* max-width: 800px;*/
+    align-items: center;
+    /*justify-content: space-between;*/
   }
 
-.border {
-  background-color: #0065fc;
-  border: 1px solid #f2f2f2;
-  border-radius: 25px;
-  color: #c2dafe;
+.select {
   display: flex;
+  align-items: center;
+  border: 3px solid #f2f2f2; /*contour du filtre*/
+  border-radius: 50px;
+  margin: 20px; 
+  padding-right: 40px;
+}
+.select h4 {
+  padding-left: 40px;
+}
+
+.border {
+  background-color: #c2dafe; /*couleur de fond du picto*/
+  border-radius: 100px; /*rond du picto*/
+  color: #0065fc; /*couleur du picto*/
+  padding: 20px; /*autour du picto*/
 }
 
   .selection {
-    align-items: center;
-    border-radius: 25px;
-    /*height: 30px;*/
-   /* display: flex;*/
    width: auto;
     padding: 0 2px;
   }
-/*i {
-  display: flex;
-}
-*/
- /* #fas fa-money-bill-wave {
-    background-color: #0065fc;
-    border-radius: 25px;
-  }*/
 
 .hosting {
     display: flex;
@@ -221,13 +238,12 @@ input[type=text] {
 .hebergements {
     background-color:#f2f2f2;
     border-radius: 20px;
-    flex: row;
     padding: 40px;
 }
 
 .card {
-  background-color: #F2F2F2;
   display: flex;
+  max-width: auto;
 }
 
 .card1 {
@@ -239,8 +255,8 @@ input[type=text] {
   margin-bottom: 20px;
   margin-right: 20px;
   padding: 5px;
-  width: 350px;
-  height: 280px;
+  width: 330px;
+  height: 300px;
 }
 
 .texte {
@@ -257,11 +273,15 @@ input[type=text] {
 .populaires {
   background-color:#f2f2f2;
   border-radius: 20px;
-  margin-left: 40px;
+  margin-left: 50px;
   padding: 40px;
-  width: 100%;
+  width: auto;
 }
 
+.icone_line {
+  display: flex;
+  justify-content: flex-end;
+}
 
 .cardpop {
   display: flex;
@@ -280,6 +300,20 @@ input[type=text] {
   width: 150px;
   height: 200px;
   border-radius: 20px 0 0 20px;
+
+}
+
+.star {
+  display: flex;
+  align-items: flex-end;
+}
+
+.blue {
+  color: #0065FC;
+}
+
+.grey {
+  color: #f2f2f2;
 }
 
 .activity {
@@ -295,7 +329,6 @@ input[type=text] {
 
 .box {
   width: 25%;
-  margin: 0px;
   padding: 20px;
 
  
@@ -303,63 +336,71 @@ input[type=text] {
 .box_vieuxport {
   border-radius: 20px;
   box-shadow: 0px 4px 0px 1px #adadad18;
-  margin: 10px;
+  margin: 0px;
+  padding-bottom: 40px;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
 .box_vieuxport img {
   width: 100%;
-  height: 450px;
+  height: 550px;
   border-radius: 20px 20px 0 0;
+
 }
 
 .box_fortdepomegues {
   border-radius: 20px;
   box-shadow: 0px 4px 0px 1px #adadad18;
-  margin: 10px;
+  margin: 0px;
+  padding-bottom: 40px;
   width: 100%;
-  height: 350px;
+  height: 300px;
 }
 
 .box_fortdepomegues img {
   width: 100%;
-  height: 300px;
+  height: 250px;
   border-radius: 20px 20px 0 0;
+
 }
 
 .box_ilesdufrioul {
   border-radius: 20px;
   box-shadow: 0px 4px 0px 1px #adadad18;
-  margin: 10px;
+  margin-top: 80px;
+  /*margin: 10px;*/
+  padding-bottom: 40px;
   width: 100%;
-  height: 150px;
+  height: 200px;
 }
 
 .box_ilesdufrioul img {
   width: 100%;
-  height: 100px;
+  height: 150px;
   border-radius: 20px 20px 0 0;
 }
 
 .box_parcnational {
   border-radius: 20px;
   box-shadow: 0px 4px 0px 1px #adadad18;
-  margin: 10px;
+  margin: 0px;
+  padding-bottom: 40px;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
 .box_parcnational img {
   width: 100%;
-  height: 450px;
+  height: 550px;
   border-radius: 20px 20px 0 0;
 }
 
 .box_notredame {
   border-radius: 20px;
   box-shadow: 0px 4px 0px 1px #adadad18;
-  margin: 10px;
+  margin: 0px;
+  padding-bottom: 40px;
   width: 100%;
   height: 250px;
 }
@@ -373,7 +414,9 @@ input[type=text] {
 .box_parclongchamp {
   border-radius: 20px;
   box-shadow: 0px 4px 0px 1px #adadad18;
-  margin: 10px;
+  margin-top: 50px;
+ /* margin: 10px;*/
+  padding-bottom: 40px;
   width: 100%;
   height: 250px;
 }
