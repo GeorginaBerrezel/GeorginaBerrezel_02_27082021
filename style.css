@@ -1,10 +1,8 @@
 
-/*
-style.css
----------
- */ 
 
- 
+ /* style.css
+---------
+*/
 
 html {
   font-size: 100%;
@@ -39,7 +37,7 @@ p {
 body {
     font-family: 'Raleway', sans-serif;
     font-size: .8rem;
-    margin: 0px;
+    margin: 0;
   }
 
 /* LINK */
@@ -53,22 +51,20 @@ body {
   }
 
   a :visited {
-      color: #437A16;
+      color: #7e8875;
   }
 
-
   .content {
-    /*max-width: auto;*/
-    margin-left: 50px;
-    margin-right: 0px;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-content: center;
   }
 
   .container {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    padding: 10px;
 }
+
 
 /* HEADER */
 
@@ -102,21 +98,43 @@ width: auto;
 ul {
   display: flex;
   list-style-type: none;
+  margin: 0;
 }
 
 li {
+  padding-top: 0px;
   padding-left: 50px;
+ /* border-top: 2px solid transparent;*/
+  cursor: pointer;
 }
+
+li :hover {
+  border-top: 2px solid #0065fc;
+  padding: 20px;
+  margin: 0px;
+  color: #0065fc;
+}
+
+.active a :active {
+    border-top: 2px solid #0065fc;
+    padding: 20px;
+    margin: 0px;
+    color: #0065fc;
+  }
+
+ /* color: #0065fc;*/
+
 
 button {
   align-items: center;
   background: none;
   border: none;
   color: #0065fc;
-  margin-left: auto;
+  margin: 0px;
   padding-left: 50px;
   text-decoration: none;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 img {
@@ -138,7 +156,7 @@ img {
 .icone {
   display: flex;
   background-color: #F2F2F2;
-  border-radius: 20px 0 0 20px;
+  border-radius: 15px 0 0 15px;
   justify-content: center;
   padding: 16px;
   font-size: 1.2rem;
@@ -158,10 +176,12 @@ input[type=text] {
 
 .boutton {
   background-color: #0065fc;
-  border-radius: 0 20px 20px 0;
+  border-radius: 0 15px 15px 0;
   color: #FFFFFF;
   padding: 10px;
   font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 /* FILTRES */
@@ -227,23 +247,22 @@ input[type=text] {
 
 /* Section HOSTING */
 
-/*@media (max-width: 1280px) {
-  
-  .hosting {
-      display: flex;
-      height: auto;
-  }
-}*/
 
 section {
-  max-width: 1280px;
+  /*width: auto;*/
 }
-
+/*RESPONSIVE tablette*/
+@media all and (max-width: 980px) {
+  
+  .hosting {
+    display: none;
+    background-color: #437A16;
+ }
+}
 .hosting {
   display: flex;
   margin-bottom: 50px;
- /* height: auto;
-  max-width: 1280px;*/
+  width: auto;
 }
 
 /* hosting > HEBRGEMENTS A MARSEILLE */
@@ -264,7 +283,7 @@ section {
   background-color: white;
   border-radius: 20px;
   box-shadow: 5px 5px 2px #adadad18;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 10px;
   margin-bottom: 20px;
   margin-right: 30px;
@@ -278,14 +297,13 @@ section {
 }
 
 .card1 img {
-  width: 230px;
+  width: 100%;
   height: 100px;
   border-radius: 20px 20px 0 0;
 }
 
 /* hosting > LES PLUS POPULAIRES */
 .populaires {
-  justify-content: flex-end;
   background-color:#f2f2f2;
   border-radius: 20px;
   margin-left: 50px;
@@ -317,7 +335,7 @@ section {
 }
 .cardpop img {
   width: 120px;
-  height: 120px;
+  height: 100%;
   border-radius: 20px 0 0 20px;
 
 }
@@ -487,6 +505,7 @@ footer {
   font-size: 1rem;
 }
 .mon_footer p{
+  display: flex;
   margin-bottom: 20px;
   font-size: 1rem;
 }
