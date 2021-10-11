@@ -1,0 +1,195 @@
+ /* tablette.css
+---------
+*/
+
+/*RESPONSIVE tablette*/
+@media all and (max-width: 1199.5px) and (min-width:768px) {
+  
+    .hosting {
+      display: none;
+      background-color: #437A16;
+   }
+
+/*GENERAL*/
+
+.content {
+    background-color: tomato;
+    margin: 0px auto;
+    padding: 40px;
+    align-content: center;
+  }
+/*FILTRES*/
+   .select {
+    margin: 10px; 
+  }
+
+
+  /*HERBERGEMENTS*/
+
+  .hosting {
+    flex-direction: column;
+    width: 100%;
+}
+
+.hebergements {
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 0px;
+
+}
+
+.card {
+    flex-direction: column;
+    width: 100%;
+}
+
+.card1 {
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+}
+.card1 img{
+    width: 100%;
+    height: 250px;
+}
+
+
+/*LES PLUS POPULAIRES*/
+
+.icone_line {
+font-size: 2.8rem;
+}
+
+.populaires { 
+    border-radius: 0px;
+    margin: 0px;
+    width: 90%;  
+}
+
+.cardpop {
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+}
+.cardpop img {
+    width: 250px;
+    height: 100%;
+}
+
+
+/*ACTIVITES */
+
+.act {
+flex-direction: column;
+}
+
+.box {
+border-radius: 50px;
+width: 100%;
+padding: 0px;
+}
+/*VIEUX PORT*/
+.box_vieuxport {
+width: 100%;
+height: 400px;
+}
+
+.box_vieuxport h4 {
+margin-top: 20px;
+}
+
+.box_vieuxport img {
+border-radius: 40px 40px 0 0;
+width: 100%;
+height: 300px;
+}
+
+/*FORT DE POMEGUES*/
+
+.box_fortdepomegues {
+width: 100%;
+height: 400px;
+}
+.box_fortdepomegues h4 {
+margin-top: 20px;
+}
+
+.box_fortdepomegues img {
+border-radius: 40px 40px 0 0;
+width: 100%;
+height: 300px;
+}
+
+/*ILES DU FRIOUL*/
+
+.box_ilesdufrioul {
+width: 100%;
+height: 400px;
+}
+
+.box_ilesdufrioul h4 {
+margin-top: 20px;
+}
+
+.box_ilesdufrioul img {
+border-radius: 40px 40px 0 0;
+width: 100%;
+height: 300px;
+}
+
+/*PARC NATIONAL DES CALANQUES*/
+
+.box_parcnational {
+width: 100%;
+height: 400px;
+}
+
+.box_parcnational h4 {
+margin-top: 20px;
+}
+
+.box_parcnational img {
+border-radius: 40px 40px 0 0;
+width: 100%;
+height: 300px;
+}
+
+/*NOTRE DAME DE LA GARDE*/
+
+.box_notredame {
+width: 100%;
+height: 400px;
+}
+
+.box_notredame h4{
+margin-top: 20px;
+}
+
+.box_notredame img {
+border-radius: 40px 40px 0 0;
+width: 100%;
+height: 300px;
+}
+
+/*PARC LONGCHAMP*/
+
+.box_parclongchamp {
+width: 100%;
+height: 400px;
+}
+
+.box_parclongchamp h4 {
+margin-top: 20px;
+}
+
+.box_parclongchamp img {
+border-radius: 40px 40px 0 0;
+width: 100%;
+height: 300px;
+}
+/*FOOTER*/
+footer {
+    height: 100%;
+    }
+
+}

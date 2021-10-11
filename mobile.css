@@ -1,0 +1,261 @@
+ /* Mobile.css
+---------
+*/
+@media all and (max-width: 767.5px) {
+
+
+/*FONT*/
+
+    h1 {
+        font-size: 2.5rem;
+      }
+      
+      h2 {
+        font-size: 2.8rem;
+      }
+      
+      h3 {
+        font-size: 1.8rem;
+        margin: 5px 0px 5px 0px;
+      }
+      
+      h4 {
+        font-size: 2rem;
+        line-height: normal;
+        margin: 5px 0px 5px 0px;
+      }
+      
+      p {
+        font-size: 1.7rem;
+        line-height: normal;
+        margin: 5px 0px 5px 0px;
+      }
+
+
+/*GENERAL*/
+
+      .content {
+        margin: 0px auto;
+        padding: 40px;
+        align-content: center;
+      }
+
+/*HEADER*/
+
+    .reservia {
+        background-color: skyblue;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: auto
+        }
+
+    .filtres {
+        flex-direction: column;
+        width: 100%;
+    }
+
+/*RECHERCHER*/ 
+
+.boutton {
+    background-image: url(http://www.w3.org/2000/svg);
+    background-color: #0065fc;
+    border-radius: 15px;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  } 
+
+
+/*ICONE - PHRASE INFORMATION*/
+
+  .info_circle {
+    border: 2px solid #d9d9d9; /*contour du filtre*/
+    border-radius: 150px;
+    color: #0065fc; /*couleur du picto*/
+    margin-right: 20px;
+    width: 70px;
+    height: 50px;
+    font-size: 1.7rem;
+  }
+
+/*HERBERGEMENTS*/
+
+    .hosting {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hebergements {
+        width: 90%;
+        background-color: #ffffff;
+        border-radius: 0px;
+
+    }
+
+    .card {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card1 {
+        width: 100%;
+        height: 400px;
+        padding: 10px;
+    }
+    .card1 img{
+        width: 100%;
+        height: 250px;
+    }
+
+
+/*LES PLUS POPULAIRES*/
+
+.icone_line {
+    font-size: 2.8rem;
+}
+
+    .populaires { 
+        border-radius: 0px;
+        margin: 0px;
+        width: 90%;  
+    }
+
+    .cardpop {
+        width: 100%;
+        height: 250px;
+        padding: 10px;
+    }
+    .cardpop img {
+        width: 250px;
+        height: 100%;
+    }
+
+
+/*ACTIVITES */
+  
+  .act {
+    flex-direction: column;
+  }
+  
+  .box {
+    border-radius: 50px;
+    width: 100%;
+    padding: 0px;
+  }
+  /*VIEUX PORT*/
+    .box_vieuxport {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .box_vieuxport h4 {
+    margin-top: 20px;
+  }
+  
+  .box_vieuxport img {
+    border-radius: 40px 40px 0 0;
+    width: 100%;
+    height: 300px;
+  }
+  
+  /*FORT DE POMEGUES*/
+  
+  .box_fortdepomegues {
+    width: 100%;
+    height: 400px;
+  }
+  .box_fortdepomegues h4 {
+    margin-top: 20px;
+  }
+  
+  .box_fortdepomegues img {
+    border-radius: 40px 40px 0 0;
+    width: 100%;
+    height: 300px;
+  }
+  
+  /*ILES DU FRIOUL*/
+  
+  .box_ilesdufrioul {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .box_ilesdufrioul h4 {
+    margin-top: 20px;
+  }
+  
+  .box_ilesdufrioul img {
+    border-radius: 40px 40px 0 0;
+    width: 100%;
+    height: 300px;
+  }
+  
+  /*PARC NATIONAL DES CALANQUES*/
+  
+  .box_parcnational {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .box_parcnational h4 {
+    margin-top: 20px;
+  }
+  
+  .box_parcnational img {
+    border-radius: 40px 40px 0 0;
+    width: 100%;
+    height: 300px;
+  }
+  
+  /*NOTRE DAME DE LA GARDE*/
+  
+  .box_notredame {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .box_notredame h4{
+    margin-top: 20px;
+  }
+  
+  .box_notredame img {
+    border-radius: 40px 40px 0 0;
+    width: 100%;
+    height: 300px;
+  }
+  
+  /*PARC LONGCHAMP*/
+  
+  .box_parclongchamp {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .box_parclongchamp h4 {
+    margin-top: 20px;
+  }
+  
+  .box_parclongchamp img {
+    border-radius: 40px 40px 0 0;
+    width: 100%;
+    height: 300px;
+  }
+
+/*FOOTER*/
+    footer {
+    height: 100%;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .mon_footer h3{
+        font-size: 1.8rem;
+      }
+      .mon_footer p {
+        font-size: 1.7rem;
+      } 
+ }

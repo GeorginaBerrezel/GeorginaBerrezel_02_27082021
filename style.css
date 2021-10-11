@@ -1,6 +1,6 @@
 
 
- /* style.css
+ /* style version desktop.css
 ---------
 */
 
@@ -250,19 +250,6 @@ input[type=text] {
 
 section {
   /*width: auto;*/
-}
-/*RESPONSIVE tablette*/
-@media all and (max-width: 980px) {
-  
-  .hosting {
-    display: none;
-    background-color: #437A16;
- }
-}
-.hosting {
-  display: flex;
-  margin-bottom: 50px;
-  width: auto;
 }
 
 /* hosting > HEBRGEMENTS A MARSEILLE */
