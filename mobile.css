@@ -6,31 +6,6 @@
 
 /*FONT*/
 
-    h1 {
-        font-size: 2.5rem;
-      }
-      
-      h2 {
-        font-size: 2.8rem;
-      }
-      
-      h3 {
-        font-size: 1.8rem;
-        margin: 5px 0px 5px 0px;
-      }
-      
-      h4 {
-        font-size: 2rem;
-        line-height: normal;
-        margin: 5px 0px 5px 0px;
-      }
-      
-      p {
-        font-size: 1.7rem;
-        line-height: normal;
-        margin: 5px 0px 5px 0px;
-      }
-
 
 /*GENERAL*/
 
@@ -44,10 +19,46 @@
 
     .reservia {
         background-color: skyblue;
-        display: flex;
+       /*
+       display: flex;
+       */
         flex-direction: column;
+        /*
         align-content: center;
-        width: auto
+        */
+        width: 100%;
+        }
+
+
+    nav {
+      margin:0px;
+      }
+
+    .navigation {
+      flex-direction: column;
+      }
+
+      li {
+        align-content: center;
+        padding-left: 50px;
+       /*
+       border-top: 2px solid transparent;
+       */
+        cursor: pointer;
+      }
+
+      li :hover {
+        border-top: 2px solid #0065fc;
+        padding: -20px;
+        margin: 10px;
+        color: #0065fc;
+      }
+      
+      .active a :active {
+          border-top: 2px solid #0065fc;
+          padding: -20px;
+          margin: 10px;
+          color: #0065fc;
         }
 
     .filtres {
@@ -57,29 +68,51 @@
 
 /*RECHERCHER*/ 
 
-.boutton {
+
+
+  /*INPUT*/
+  input[type=text] {
+    width: auto;
+    padding: 15px 15px;
+    /*
+    margin: 18px 0;
+    */
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid #F2F2F2; /*contour du filtre*/
+  }
+
+  .boutton {
     background-image: url(http://www.w3.org/2000/svg);
     background-color: #0065fc;
     border-radius: 15px;
     color: #FFFFFF;
     padding: 10px;
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-weight: bold;
     cursor: pointer;
   } 
 
+  /* FILTRES */
 
-/*ICONE - PHRASE INFORMATION*/
+.filtres {
+display: flex;
+}
 
+/*ICONE + PHRASE INFORMATION*/
+
+  /*
   .info_circle {
     border: 2px solid #d9d9d9; /*contour du filtre*/
-    border-radius: 150px;
+   /* border-radius: 150px;
     color: #0065fc; /*couleur du picto*/
-    margin-right: 20px;
-    width: 70px;
-    height: 50px;
-    font-size: 1.7rem;
+   /* margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    font-size: 1rem;
   }
+  */
 
 /*HERBERGEMENTS*/
 
@@ -89,9 +122,10 @@
     }
 
     .hebergements {
-        width: 90%;
+        width: 100%;
         background-color: #ffffff;
         border-radius: 0px;
+        order: 2;
 
     }
 
@@ -102,39 +136,43 @@
 
     .card1 {
         width: 100%;
-        height: 400px;
+        height: 200px;
         padding: 10px;
     }
     .card1 img{
         width: 100%;
-        height: 250px;
+        height: 130px;
     }
 
 
 /*LES PLUS POPULAIRES*/
 
 .icone_line {
-    font-size: 2.8rem;
+    font-size: 1.4rem;
 }
 
     .populaires { 
         border-radius: 0px;
         margin: 0px;
-        width: 90%;  
+        width: 100%;  
+        order: 1;
     }
 
     .cardpop {
         width: 100%;
-        height: 250px;
+        height: 150px;
         padding: 10px;
     }
     .cardpop img {
-        width: 250px;
+        width: 150px;
         height: 100%;
     }
 
 
 /*ACTIVITES */
+ 
+ .activity {
+flex-flow: column wrap;}
   
   .act {
     flex-direction: column;
@@ -145,6 +183,8 @@
     width: 100%;
     padding: 0px;
   }
+
+
   /*VIEUX PORT*/
     .box_vieuxport {
     width: 100%;
@@ -247,15 +287,15 @@
 
 /*FOOTER*/
     footer {
-    height: 100%;
+      height: 100%;
     }
     .footer {
-        flex-direction: column;
+       flex-direction: column;
     }
     .mon_footer h3{
         font-size: 1.8rem;
       }
       .mon_footer p {
         font-size: 1.7rem;
-      } 
- }
+      }
+}

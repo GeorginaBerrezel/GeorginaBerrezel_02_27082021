@@ -68,11 +68,12 @@ body {
 
 /* HEADER */
 
- /* header {
-display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+ /* 
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 */
 
@@ -80,7 +81,9 @@ display: flex;
 .reservia {
   align-items: center;
   display: flex;
-  /*width: auto;*/
+  /*
+  width: auto;
+  */
 
 }
 
@@ -104,26 +107,25 @@ ul {
 li {
   padding-top: 0px;
   padding-left: 50px;
- /* border-top: 2px solid transparent;*/
+ /*
+ border-top: 2px solid transparent;
+ */
   cursor: pointer;
 }
 
 li :hover {
   border-top: 2px solid #0065fc;
   padding: 20px;
-  margin: 0px;
+  margin: -10px;
   color: #0065fc;
 }
 
 .active a :active {
     border-top: 2px solid #0065fc;
     padding: 20px;
-    margin: 0px;
+    margin: -10px;
     color: #0065fc;
   }
-
- /* color: #0065fc;*/
-
 
 button {
   align-items: center;
@@ -141,6 +143,7 @@ img {
   object-fit: cover;
 }
 
+
 /* INPUT */
 
 .localisation {
@@ -150,7 +153,9 @@ img {
   height: 20px;
   margin-top: 50px;
   margin-bottom: 30px;
-  /*padding: 20px;*/
+  /*
+  padding: 20px;
+  */
 }
 
 .icone {
@@ -166,7 +171,9 @@ img {
 input[type=text] {
   width: auto;
   padding: 15px 15px;
-  /*margin: 18px 0;*/
+  /*
+  margin: 18px 0;
+  */
   box-sizing: border-box;
   font-size: 1rem;
   font-weight: bold;
@@ -183,6 +190,7 @@ input[type=text] {
   font-weight: bold;
   cursor: pointer;
 }
+
 
 /* FILTRES */
 
@@ -245,14 +253,22 @@ input[type=text] {
   }
 
 
+
 /* Section HOSTING */
 
-
 section {
-  /*width: auto;*/
+  /*
+  width: auto;
+  */
 }
 
+
 /* hosting > HEBRGEMENTS A MARSEILLE */
+
+.hosting {
+  display: flex; 
+  width: 100%;
+}
 
 .hebergements {
     background-color:#f2f2f2;
@@ -483,15 +499,15 @@ footer {
   justify-content: space-between;
   margin-top: 50px;
   padding: 50px;
-  height: 100px;
+  height: 100%;
   background-color: #f2f2f2;
 }
 
-.mon_footer h3{
+.mon_footer h3 {
   margin-bottom: 20px;
   font-size: 1rem;
 }
-.mon_footer p{
+.mon_footer p {
   display: flex;
   margin-bottom: 20px;
   font-size: 1rem;
