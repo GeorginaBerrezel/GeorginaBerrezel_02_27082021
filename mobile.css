@@ -9,62 +9,68 @@
 
 /*GENERAL*/
 
-      .content {
-        margin: 0px auto;
-        padding: 40px;
-        align-content: center;
-      }
+      
+.content {
+  margin: 0px auto;
+  align-content: center;
+}
+
+  .container {
+    padding: 0px 10px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+
+}
 
 /*HEADER*/
 
-    .reservia {
-        background-color: skyblue;
-       /*
-       display: flex;
-       */
-        flex-direction: column;
-        /*
-        align-content: center;
-        */
-        width: 100%;
-        }
+.reservia {
+  background-color: skyblue;
+  flex-direction: column;
+  /*width: 100%;*/
+}
 
+nav {
+  margin: 0px;
+}
 
-    nav {
-      margin:0px;
-      }
+.navigation {
+  flex-direction: column;
+}
 
-    .navigation {
-      flex-direction: column;
-      }
-
-      li {
-        align-content: center;
-        padding-left: 50px;
-       /*
-       border-top: 2px solid transparent;
-       */
-        cursor: pointer;
-      }
-
-      li :hover {
-        border-top: 2px solid #0065fc;
-        padding: -20px;
-        margin: 10px;
-        color: #0065fc;
-      }
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
       
-      .active a :active {
-          border-top: 2px solid #0065fc;
-          padding: -20px;
-          margin: 10px;
-          color: #0065fc;
-        }
+ul li {
+ border-bottom: 2px solid transparent;
+  cursor: pointer;
+  list-style-type: none;
+  padding-bottom: 18px;
+  margin: 30px 30px 0px 30px;
+}
+      
+li:hover {
+  border-bottom: 2px solid #0065fc;
+}
 
-    .filtres {
+.filtres {
         flex-direction: column;
         width: 100%;
     }
+
+button {
+  display: flex;
+  position: absolute;
+  margin-right: auto;
+  background-color: black;
+}
 
 /*RECHERCHER*/ 
 
@@ -73,7 +79,7 @@
   /*INPUT*/
   input[type=text] {
     width: auto;
-    padding: 15px 15px;
+   padding: 15px 15px;
     /*
     margin: 18px 0;
     */
@@ -84,21 +90,29 @@
   }
 
   .boutton {
-    background-image: url(http://www.w3.org/2000/svg);
-    background-color: #0065fc;
-    border-radius: 15px;
-    color: #FFFFFF;
-    padding: 10px;
+    display: none;
+  } 
+
+  .boutton_icone {
+   background-color: #0065fc;
+   border-radius: 0 15px 15px 0;
+   color: #FFFFFF;
+   padding: 10px;
     font-size: 0.5rem;
     font-weight: bold;
     cursor: pointer;
-  } 
+  }
 
   /* FILTRES */
 
 .filtres {
-display: flex;
+  align-items: flex-start;
+  display: flex;
 }
+.englobe_filtre {
+   display: flex;
+   flex-wrap: wrap;
+ }
 
 /*ICONE + PHRASE INFORMATION*/
 
@@ -137,8 +151,8 @@ display: flex;
 
     .card1 {
         width: 100%;
-        height: 200px;
-        padding: 10px;
+        height: 210px;
+        padding: 5px;
     }
     .card1 img{
         width: 100%;
@@ -155,18 +169,18 @@ display: flex;
     .populaires { 
         border-radius: 0px;
         box-sizing: border-box;
-        margin: 0px;
+        margin: 20px;
         width: 100%;  
         order: 1;
     }
 
     .cardpop {
         width: 100%;
-        height: 150px;
-        padding: 10px;
+        height: 130px;
+        padding: 5px;
     }
     .cardpop img {
-        width: 150px;
+        width: 120px;
         height: 100%;
     }
 

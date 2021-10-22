@@ -12,14 +12,24 @@
 .content {
     background-color: tomato;
     margin: 0px auto;
-    padding: 40px;
     align-content: center;
   }
+
+.container {
+    padding: 0px 40px;
+}
+
 /*FILTRES*/
    .select {
     margin: 10px; 
   }
 
+ /* INFO + de 500 logements... */
+
+ .info {
+    padding: 0px 40px;
+
+  }
 
   /*HERBERGEMENTS*/
 
@@ -220,9 +230,11 @@ height: 300px;
 
 
 /*FOOTER*/
-footer {
-    height: 100%;
+
+.footer {
     display: flex;
+    justify-content: space-between;
+    padding: 50px;
     }
 
 }
