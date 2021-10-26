@@ -35,9 +35,11 @@ p {
 
 /* GENERALE */
 body {
+  background-color: aqua;
     font-family: 'Raleway', sans-serif;
     font-size: .8rem;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 /* LINK */
@@ -55,14 +57,18 @@ body {
   }
 
   .content {
+    background-color: #7e8875;
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 40px 0 40px;
     align-content: center;
   }
 
   .container {
+    background-color: #c2dafe;
     display: flex;
     flex-direction: column;
+    padding: 1px 40px 0 40px;
 }
 
 
@@ -84,7 +90,10 @@ body {
   /*
   width: auto;
   */
+}
 
+.logo_reservia_sinscrire {
+  display: none;
 }
 
 nav {
@@ -123,6 +132,7 @@ button {
   background: none;
   border: none;
   color: #0065fc;
+  display: block;
   margin: 0px 0px 30px 30px;
   padding-top: 18px;
   text-decoration: none;
@@ -172,7 +182,7 @@ input[type=text] {
 
 }
 
-.boutton {
+.button_rechercher {
   background-color: #0065fc;
   border-radius: 0 15px 15px 0;
   color: #FFFFFF;
@@ -182,7 +192,7 @@ input[type=text] {
   cursor: pointer;
 }
 
-.boutton_icone {
+.button_icone {
   display: none;
 }
 
@@ -192,25 +202,27 @@ input[type=text] {
 .filtres {
     display: flex;
     align-items: center;
+
   }
 
 
 .englobe_filtre {
     display: flex;
+    padding: 10px 0 10px 20px; 
+
   }
-
-.englobe_filtre :hover {
-background-color: #0065fc; 
-color: #FFFFFF;
- }
-
 
 .select {
   display: flex;
   align-items: center;
   border: 2px solid #d9d9d9; /*contour du filtre*/
   border-radius: 150px;
-  margin-right: 20px;
+  margin: 10px;
+}
+
+.select:hover {
+  background-color: #0065fc; 
+  color: #FFFFFF;
 }
 
 .select h3 {
@@ -231,17 +243,15 @@ color: #FFFFFF;
   font-size: 1.4rem;
 }
 
-/*
-.selection {
-  width: auto;
-  padding: 0 2px;
-  }
-*/
+.border:hover {
+  background-color: #0065fc; 
+  color: #FFFFFF;
+}
 
   /* INFO + de 500 logements... */
-.bloc_info {
-  margin: 0 auto;
-  padding: 0;
+  .bloc_info {
+    margin: 20px 0 20px 0;
+    padding: 0;
 
 }
 .info {
@@ -500,16 +510,15 @@ section {
 /* FOOTER */
 
 footer {
-  /*display: flex;
-  justify-content: space-between;*/
-  margin-top: 50px;
+  margin: 0;
   height: 100%;
   background-color: #f2f2f2;
+  padding: 50px 90px 50px 90px ;
+
 }
  .footer {
   display: flex;
   justify-content: space-between;
-  padding: 50px;
  }
 
 .mon_footer h3 {
