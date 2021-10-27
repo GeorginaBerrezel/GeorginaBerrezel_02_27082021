@@ -38,7 +38,6 @@
  .hosting {
     flex-direction: column;
     width: 100%;
-    background-color: aquamarine;
 }
 
 .hebergements {
@@ -73,11 +72,15 @@
     align-content: space-around;
 }
 
+.icone_line {
+  margin-left: 50px;
+  font-size: 1.5rem;
+}
+
 .populaires { 
-    box-sizing:border-box;
-    border-radius: 0px;
+    box-sizing: border-box;
+    border-radius: 20px;
     margin: 0px;
-    /*padding: 20px;*/
     order: 1;
     width: 100%;  
 }
@@ -88,10 +91,10 @@
     width: 70%;
     height: 150px;
     padding: 5px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .cardpop img {
-    width: 130px;
+    width: 120px;
     height: 100%;
 }
 
@@ -230,7 +233,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 40px;
     }
 
 }

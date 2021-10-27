@@ -13,9 +13,10 @@
 .content {
   margin: 0px auto;
   align-content: center;
+  padding: 0;
 }
 
-  .container {
+.container {
     padding: 0px 10px;
 }
 
@@ -33,21 +34,35 @@
   /*width: 100%;*/
 }
 
-.logo_reservia_sinscrire {
-  display: block;
-  margin: 0px;
-  width: auto;
-  margin: 0px 0px 30px 30px;
 
+
+.logo_reservia_sinscrire {
+  align-items: center;
+  justify-content: right;
+  display: flex;
+  margin-bottom: 10px;
+  /*width: 70%;*/
+}
+
+.sinscrire {
+  align-items: center;
+  color: #0065fc;
+  cursor: pointer;
+  display: flex;
+  justify-content: right;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-left: auto;
 }
 
 nav {
   margin: 0px;
-  width: auto;
+  width: 100%;
 }
 
 .navigation {
   flex-direction: column;
+  width: 100%;
 }
 
 ul {
@@ -57,16 +72,19 @@ ul {
 }
       
 ul li {
- border-bottom: 2px solid transparent;
+  border-bottom: 2px solid #f2f2f2;
   cursor: pointer;
+  justify-content: center;
   list-style-type: none;
-  padding-bottom: 18px;
-  margin: 30px 30px 0px 30px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
-      
+
 li:hover {
   border-top: none;
   border-bottom: 2px solid #0065fc;
+  width: 100%;
 }
 
 .filtres {
@@ -83,47 +101,48 @@ button {
 
 /*RECHERCHER*/ 
 
-
+.search {
+  margin-top: 30px;
+}
 
   /*INPUT*/
-  input[type=text] {
-    width: auto;
-    padding: 15px 15px;
-    margin: 18px 0;
-    box-sizing: border-box;
-    font-size: 1rem;
-    font-weight: bold;
-    border: 1px solid #F2F2F2; /*contour du filtre*/
-  }
 
-  .text_rechercher {
-    display: none;
-  } 
 
-  .button_rechercher {
-    background-color: #0065fc;
-    border-radius: 15px;
-    padding: 25px;
-    margin-left: -15px;
-    cursor: pointer;
-  }
+input[type=text] {
+  width: 200px; 
+  font-size: 0.9rem;
 
-  .button_icone {
-    display: block;
-    color: #FFFFFF;
-    font-size: 1rem;
   }
+ 
+.text_rechercher {
+  display: none;
+} 
+
+.button_rechercher {
+  background-color: #0065fc;
+  color: #FFFFFF;
+  border-radius: 15px;
+  padding: auto;
+  margin-left: -15px;
+  cursor: pointer;
+}
+
+.button_icone {
+  display: block;
+  font-size: 1rem;
+  width: 20px;
+}
 
   /* FILTRES */
 
 .filtres {
   align-items: flex-start;
   display: flex;
-  padding: 20px;
 }
 .englobe_filtre {
    display: flex;
    flex-wrap: wrap;
+   margin: 0;
  }
 
 /*ICONE + PHRASE INFORMATION*/
@@ -203,6 +222,10 @@ button {
  .activity {
   flex-flow: column wrap;
   padding: 20px;
+}
+
+.activity_text {
+  padding: 0;
 }
   
   .act {
@@ -332,8 +355,14 @@ button {
 /*FOOTER*/
     footer {
       height: 100%;
+      padding: 20px;
     }
+
     .footer {
        flex-direction: column;
+    }
+
+    .mon_footer {
+      margin-bottom: 30px;
     }
 }

@@ -35,7 +35,6 @@ p {
 
 /* GENERALE */
 body {
-  background-color: aqua;
     font-family: 'Raleway', sans-serif;
     font-size: .8rem;
     margin: 0;
@@ -57,7 +56,6 @@ body {
   }
 
   .content {
-    background-color: #7e8875;
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 40px 0 40px;
@@ -65,7 +63,6 @@ body {
   }
 
   .container {
-    background-color: #c2dafe;
     display: flex;
     flex-direction: column;
     padding: 1px 40px 0 40px;
@@ -92,7 +89,11 @@ body {
   */
 }
 
-.logo_reservia_sinscrire {
+.logo_et_sinscrire {
+  display: none;
+}
+
+.sinscrire {
   display: none;
 }
 
@@ -136,7 +137,7 @@ button {
   margin: 0px 0px 30px 30px;
   padding-top: 18px;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 
@@ -172,9 +173,7 @@ img {
 input[type=text] {
   width: auto;
   padding: 15px 15px;
-  /*
   margin: 18px 0;
-  */
   box-sizing: border-box;
   font-size: 1rem;
   font-weight: bold;
@@ -202,14 +201,15 @@ input[type=text] {
 .filtres {
     display: flex;
     align-items: center;
+    margin: 0;
 
   }
 
 
 .englobe_filtre {
     display: flex;
-    padding: 10px 0 10px 20px; 
-
+    margin: 0 0 0 10px;
+    /*padding: 10px 0 10px 20px; */
   }
 
 .select {
@@ -217,7 +217,7 @@ input[type=text] {
   align-items: center;
   border: 2px solid #d9d9d9; /*contour du filtre*/
   border-radius: 150px;
-  margin: 10px;
+  margin: 10px 10px 0 0;
 }
 
 .select:hover {
@@ -394,6 +394,10 @@ section {
   height: auto;
 }
 
+.activity_text {
+  padding: 20px 0 20px 40px ;
+}
+
 .act {
   display:flex;
   justify-content: space-between;
@@ -510,15 +514,16 @@ section {
 /* FOOTER */
 
 footer {
-  margin: 0;
+  margin-top: 40px;
   height: 100%;
   background-color: #f2f2f2;
-  padding: 50px 90px 50px 90px ;
+  padding: 40px;
 
 }
  .footer {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
  }
 
 .mon_footer h3 {
@@ -527,6 +532,6 @@ footer {
 }
 .mon_footer p {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 1rem;
 }
