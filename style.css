@@ -56,7 +56,7 @@ body {
   }
 
   .content {
-    max-width: 1280px;
+    /*max-width: 1280px;*/
     margin: 0 auto;
     padding: 0 40px 0 40px;
     align-content: center;
@@ -71,14 +71,10 @@ body {
 
 /* HEADER */
 
- /* 
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+header {
+  padding: 1px 40px 0 40px;
 }
-*/
+
 
 /* NAVIGATION */
 .reservia {
@@ -146,6 +142,7 @@ img {
 }
 
 
+
 /* INPUT */
 
 .localisation {
@@ -184,7 +181,7 @@ input[type=text] {
 .button_rechercher {
   background-color: #0065fc;
   border-radius: 0 15px 15px 0;
-  color: #FFFFFF;
+  color: #FFFFFF!important;
   padding: 10px;
   font-size: 1rem;
   font-weight: bold;
@@ -277,9 +274,7 @@ input[type=text] {
 /* Section HOSTING */
 
 section {
-  /*
-  width: auto;
-  */
+ padding: 1px 40px 0 40px;
 }
 
 
@@ -395,7 +390,7 @@ section {
 }
 
 .activity_text {
-  padding: 20px 0 20px 40px ;
+  padding: 20px 0 20px 0px ;
 }
 
 .act {

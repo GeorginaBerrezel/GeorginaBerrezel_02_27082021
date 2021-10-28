@@ -24,7 +24,19 @@
   display: flex;
   align-items: center;
   padding: 0px 10px;
+}
 
+.info_circle {
+  width: 30px;
+  height: 25px;
+}
+
+section {
+  padding: 0;
+}
+
+header {
+  padding: 0;
 }
 
 /*HEADER*/
@@ -41,6 +53,7 @@
   justify-content: right;
   display: flex;
   margin-bottom: 10px;
+  padding: 10px;
   /*width: 70%;*/
 }
 
@@ -57,7 +70,9 @@
 
 nav {
   margin: 0px;
+  padding: 0px;
   width: 100%;
+  justify-content: center;
 }
 
 .navigation {
@@ -101,6 +116,13 @@ button {
 
 /*RECHERCHER*/ 
 
+
+/* SECTION recherche */
+
+.recherche {
+  padding: 10px;
+}
+
 .search {
   margin-top: 30px;
 }
@@ -120,11 +142,16 @@ input[type=text] {
 
 .button_rechercher {
   background-color: #0065fc;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 15px;
-  padding: auto;
+  padding: 8px 15px;
   margin-left: -15px;
   cursor: pointer;
+}
+
+
+.img_icone img{
+  color: #ffffff;
 }
 
 .button_icone {
