@@ -95,7 +95,8 @@ header {
 .cardpop {
     align-content: space-between;
     display: flex;
-    width: 70%;
+    flex-wrap: wrap;
+    width: 45%;
     height: 150px;
     padding: 5px;
     margin-right: 20px;
