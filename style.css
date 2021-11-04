@@ -85,11 +85,15 @@ header {
   */
 }
 
+.logo_reservia_sinscrire {
+  margin-right: auto;
+}
+
 .logo_et_sinscrire {
   display: none;
 }
 
-.sinscrire {
+.sinscrire_mobile {
   display: none;
 }
 
@@ -410,6 +414,9 @@ section {
   padding: 0;
 }
 
+.texte_box {
+  padding-left: 20px;
+}
 
 /*VIEUX PORT & PARC NATIONAL DES CALANQUES*/ 
 
