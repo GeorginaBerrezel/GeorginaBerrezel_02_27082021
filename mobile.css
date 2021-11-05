@@ -59,7 +59,13 @@ h4 {
   /*width: 100%;*/
 }
 
+.logo_reservia_mobile {
+  justify-content: left;
+  display: flex;
+  margin-left: auto;
 
+
+}
 
 .logo_reservia_sinscrire {
   align-items: center;
