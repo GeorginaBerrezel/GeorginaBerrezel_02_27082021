@@ -183,7 +183,7 @@ input[type=text] {
 
 }
 
-.button_rechercher {
+.boutton_rechercher {
   background-color: #0065fc;
   border-radius: 0 15px 15px 0;
   color: #FFFFFF!important;
@@ -193,7 +193,7 @@ input[type=text] {
   cursor: pointer;
 }
 
-.button_icone {
+.boutton_icone {
   display: none;
 }
 
