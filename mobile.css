@@ -23,7 +23,7 @@
 .info {
   display: flex;
   align-items: center;
-  padding: 0px 10px;
+  padding: 0;
 }
 
 .info_circle {
@@ -40,11 +40,15 @@ header {
 }
 
 p {
+  font-size: 1rem;
+}
+
+h3 {
   font-size: 1.1rem;
 }
 
 h4 {
-  font-size: 1.1rem;
+  font-size: 1rem;
 
 }
 
@@ -68,9 +72,7 @@ h4 {
 
 .sinscrire_mobile {
   align-items: center;
-  position: absolute;
-  top: 30px;
-  right: 30px;
+  margin: 0 auto;
   color: #0065fc;
   cursor: pointer;
   display: flex;
@@ -78,11 +80,14 @@ h4 {
   font-weight: bold;
   font-size: 1rem;
   margin-left: auto;
+  right: 40px;
+  position: absolute;
+
 }
 
 nav {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   width: 100%;
   justify-content: center;
 }
@@ -108,7 +113,7 @@ ul li {
   justify-content: center;
   list-style-type: none;
   width: 100%;
-  padding: 0;
+  padding: 0 0 10px 0;
   margin: 0;
 }
 
@@ -136,7 +141,7 @@ button {
 
 /* SECTION recherche */
 
-.recherche {
+.trouver_votre_hebergement{
   padding: 10px;
 }
 
@@ -164,8 +169,8 @@ input[type=text] {
   background-color: #0065fc;
   color: #ffffff;
   border-radius: 15px;
-  padding: 8px 15px;
-  margin-left: -15px;
+  padding: 11px 15px;
+  margin-left: -20px;
   cursor: pointer;
 }
 
@@ -222,17 +227,17 @@ input[type=text] {
         padding: 20px;
     }
 
-    .card {
+    .card_hebergements {
         flex-direction: column;
         width: 100%;
     }
 
-    .card1 {
-        width: 100%;
+    .card_solo {
+        width: 97%;
         height: 210px;
         padding: 5px;
     }
-    .card1 img{
+    .card_solo img{
         width: 100%;
         height: 130px;
     }
@@ -254,7 +259,7 @@ input[type=text] {
   }
 
     .cardpop {
-        width: 100%;
+        width: 97%;
         height: 160px;
         padding: 5px;
     }
@@ -402,7 +407,7 @@ input[type=text] {
 /*FOOTER*/
     footer {
       height: 100%;
-      padding: 20px;
+      padding: 20px 0 0 0;
     }
 
     .footer {
