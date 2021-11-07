@@ -15,7 +15,7 @@ h2 {
 }
 
 h3 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin: 5px 0 5px 0;
 }
 
@@ -80,9 +80,9 @@ header {
   display: flex;
 }
 
-.logo_reservia_mobile {
+/*.logo_reservia_mobile {
   width: 40%;
-}
+}*/
 
 .logo_reservia_sinscrire {
   margin-right: auto;
@@ -138,7 +138,7 @@ li:hover {
   cursor: pointer;
   display: block;
   margin: 0 0 30px 30px;
-  padding-top: 18px;
+  padding-top: 23px;
   text-decoration: none;
   font-size: 0.9rem;
   
@@ -412,6 +412,7 @@ section {
 }
 
 .texte_box {
+  margin-top: 10px;
   padding-left: 20px;
 }
 
@@ -424,17 +425,11 @@ section {
   height: 100%;
 }
 
-.big_box h4 {
-  margin-top: 10px;
-}
-
 .big_box img {
   width: 100%;
   height: 450px;
   border-radius: 20px 20px 0 0;
 }
-
-
 
 /*FORT DE POMEGUES*/
 
@@ -443,10 +438,6 @@ section {
   box-shadow: 0 4px 0 1px #adadad18;
   width: 100%;
   height: 280px;
-}
-
-.box_70 h4 {
-  margin-top: 10px;
 }
 
 .box_70 img {
@@ -466,10 +457,6 @@ section {
   height: 180px;
 }
 
-.box_30 h4 {
-  margin-top: 10px;
-}
-
 .box_30 img {
   width: 100%;
   height: 130px;
@@ -484,10 +471,6 @@ section {
   box-shadow: 0 4px 0 1px #adadad18;
   width: 100%;
   height: 230px;
-}
-
-.box_50_top h4 {
-  margin-top: 10px;
 }
 
 .box_50_top img {
@@ -505,10 +488,6 @@ section {
   margin-top: 40px;
   width: 100%;
   height: 230px;
-}
-
-.box_50_bottom h4 {
-  margin-top: 10px;
 }
 
 .box_50_bottom img{

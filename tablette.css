@@ -131,11 +131,7 @@ header {
   width: 100%;
   height: 430px;
 }
-  
-.big_box h4 {
-  margin-top: 10px;
-}
-  
+ 
 .big_box img {
   width: 100%;
   height: 380px;
@@ -155,10 +151,6 @@ header {
   height: 230px;
 }
   
-.box_70 h4 {
-  margin-top: 10px;
-}
-  
 .box_70 img {
   width: 100%;
   height: 180px;
@@ -166,7 +158,7 @@ header {
 }
   
   
-  /*ILES DU FRIOUL*/
+/*ILES DU FRIOUL*/
   
 .box_30 {
   border-radius: 20px;
@@ -175,10 +167,6 @@ header {
   margin-left: 20px;
   width: 90%;
   height: 230px;
-}
-  
-.box_30 h4 {
-  margin-top: 10px;
 }
   
 .box_30 img {
@@ -199,10 +187,6 @@ header {
   height: 230px;
 }
   
-.box_50_top h4 {
-  margin-top: 10px;
-}
-  
 .box_50_top img {
   width: 100%;
   height: 180px;
@@ -219,10 +203,6 @@ header {
   margin-left: 20px;
   width: 90%;
   height: 230px;
-}
-  
-.box_50_bottom h4 {
-  margin-top: 10px;
 }
   
 .box_50_bottom img{
