@@ -5,21 +5,14 @@
 /*RESPONSIVE tablette*/
 @media all and (max-width: 1199.5px) and (min-width:768px) {
   
- 
 
 /*GENERAL*/
 
 .content {
-    /*
-    background-color: tomato;
-    */
-    margin: 0 auto;
-    align-content: center;
-  }
+  margin: 0 auto;
+  align-content: center;
+ }
 
-.container {
-   /* padding: 0 40px;*/
-}
 
 section {
   padding: 0;
@@ -30,53 +23,58 @@ header {
 }
 
 /*FILTRES*/
-   .select {
-    margin: 10px; 
-  }
+
+.select {
+  margin: 10px; 
+}
+
 
  /* INFO + de 500 logements... */
 
- .info {
-    padding: 0;
-  }
+.info {
+  padding: 0;
+}
+
 
   /*HERBERGEMENTS*/
 
- .hosting {
-    flex-direction: column;
-    width: 100%;
+.hosting {
+  flex-direction: column;
+  width: 100%;
 }
 
 .hebergements {
-    background-color: #ffffff;
-    border-radius: 0;
-    box-sizing: border-box;
-    padding: 20px;
-    order: 2;
-    width: 100%;
+  background-color: #ffffff;
+  border-radius: 0;
+  box-sizing: border-box;
+  padding: 20px;
+  order: 2;
+  width: 100%;
 }
 
 .card_hebergements {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .card_solo {
-    width: 100%;
-    height: 200px;
-    padding: 5px;
+  width: 100%;
+  height: 200px;
+  padding: 5px;
+  flex-wrap: wrap;
 }
+
 .card_solo img {
-    width: 100%;
-    height: 130px;
+  width: 100%;
+  height: 120px;
 }
 
 
 /*LES PLUS POPULAIRES*/
 
 .align_tablette {
-    display: flex;
-    align-content: space-around;
+  display: flex;
+  align-content: space-around;
 }
 
 .icone_line {
@@ -85,27 +83,23 @@ header {
 }
 
 .populaires { 
-    box-sizing: border-box;
-    border-radius: 20px;
-    margin: 0;
-    order: 1;
-    width: 100%;  
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 0;
+  order: 1;
+  width: 100%;  
 }
 
 .cardpop {
-    align-content: space-between;
-    display: flex;
-    /*flex-wrap: wrap;*/
-    width: 45%;
-    height: 150px;
-    padding: 5px;
-    margin-right: 20px;
+  align-content: space-between;
+  display: flex;
+  padding: 5px;
+  margin-right: 20px;
 }
 
-
 .cardpop img {
-    width: 100px;
-    height: 100%;
+  width: 100px;
+  height: 100%;
 }
 
 
@@ -113,137 +107,137 @@ header {
 
 
 .activity {
-    flex-flow: column wrap;
-    padding: 20px;
+  flex-flow: column wrap;
+  padding: 20px;
 }
   
 .act {
-    flex-direction: column;
-  }
+  flex-direction: column;
+}
   
-  .box {
-    display: flex;
-    border-radius: 50px;
-    width: 100%;
-    padding: 0px;
-  }
+.box {
+  display: flex;
+  border-radius: 50px;
+  width: 100%;
+  padding: 0px;
+}
 
   /*VIEUX PORT & PARC NATIONAL DES CALANQUES*/ 
   
-  .big_box { 
-    border-radius: 20px;
-    box-shadow: 0 4px 0 1px #adadad18;
-    margin-top: 40px;
-    width: 100%;
-    height: 430px;
-  }
+.big_box { 
+  border-radius: 20px;
+  box-shadow: 0 4px 0 1px #adadad18;
+  margin-top: 40px;
+  width: 100%;
+  height: 430px;
+}
   
-  .big_box h4 {
-    margin-top: 10px;
-  }
+.big_box h4 {
+  margin-top: 10px;
+}
   
-  .big_box img {
-    width: 100%;
-    height: 380px;
-    border-radius: 20px 20px 0 0;
-  }
+.big_box img {
+  width: 100%;
+  height: 380px;
+  border-radius: 20px 20px 0 0;
+}
   
   
   
-  /*FORT DE POMEGUES*/
+/*FORT DE POMEGUES*/
   
-  .box_70 {
-    border-radius: 20px;
-    box-shadow: 0px 4px 0px 1px #adadad18;
-    margin-top: 40px;
-    margin-right: 20px;
-    width: 90%;
-    height: 230px;
-  }
+.box_70 {
+  border-radius: 20px;
+  box-shadow: 0 4px 0 1px #adadad18;
+  margin-top: 40px;
+  margin-right: 20px;
+  width: 90%;
+  height: 230px;
+}
   
-  .box_70 h4 {
-    margin-top: 10px;
-  }
+.box_70 h4 {
+  margin-top: 10px;
+}
   
-  .box_70 img {
-    width: 100%;
-    height: 180px;
-    border-radius: 20px 20px 0 0;
-  }
+.box_70 img {
+  width: 100%;
+  height: 180px;
+  border-radius: 20px 20px 0 0;
+}
   
   
   /*ILES DU FRIOUL*/
   
-  .box_30 {
-    border-radius: 20px;
-    box-shadow: 0px 4px 0px 1px #adadad18;
-    margin-top: 40px;
-    margin-left: 20px;
-    width: 90%;
-    height: 230px;
-  }
+.box_30 {
+  border-radius: 20px;
+  box-shadow: 0 4px 0 1px #adadad18;
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 90%;
+  height: 230px;
+}
   
-  .box_30 h4 {
-    margin-top: 10px;
-  }
+.box_30 h4 {
+  margin-top: 10px;
+}
   
-  .box_30 img {
-    width: 100%;
-    height: 180px;
-    border-radius: 20px 20px 0 0;
-  }
+.box_30 img {
+  width: 100%;
+  height: 180px;
+  border-radius: 20px 20px 0 0;
+}
   
   
-  /*NOTRE DAME DE LA GARDE*/
+/*NOTRE DAME DE LA GARDE*/
   
-  .box_50_top {
-    border-radius: 20px;
-    box-shadow: 0px 4px 0px 1px #adadad18;
-    margin-top: 40px;
-    margin-right: 20px;
-    width: 90%;
-    height: 230px;
-  }
+.box_50_top {
+  border-radius: 20px;
+  box-shadow: 0 4px 0 1px #adadad18;
+  margin-top: 40px;
+  margin-right: 20px;
+  width: 90%;
+  height: 230px;
+}
   
-  .box_50_top h4 {
-    margin-top: 10px;
-  }
+.box_50_top h4 {
+  margin-top: 10px;
+}
   
-  .box_50_top img {
-    width: 100%;
-    height: 180px;
-    border-radius: 20px 20px 0 0;
-  }
+.box_50_top img {
+  width: 100%;
+  height: 180px;
+  border-radius: 20px 20px 0 0;
+}
    
   
-  /*PARC LONGCHAMP*/
+/*PARC LONGCHAMP*/
   
-  .box_50_bottom {
-    border-radius: 20px;
-    box-shadow: 0px 4px 0px 1px #adadad18;
-    margin-top: 40px;
-    margin-left: 20px;
-    width: 90%;
-    height: 230px;
-  }
+.box_50_bottom {
+  border-radius: 20px;
+  box-shadow: 0 4px 0 1px #adadad18;
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 90%;
+  height: 230px;
+}
   
-  .box_50_bottom h4 {
-    margin-top: 10px;
-  }
+.box_50_bottom h4 {
+  margin-top: 10px;
+}
   
-  .box_50_bottom img{
-    width: 100%;
-    height: 180px;
-    border-radius: 20px 20px 0 0;
-  }
+.box_50_bottom img{
+  width: 100%;
+  height: 180px;
+  border-radius: 20px 20px 0 0;
+}
 
 
 /*FOOTER*/
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    }
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
 
 }
