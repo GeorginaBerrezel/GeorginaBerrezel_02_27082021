@@ -116,7 +116,7 @@ li:hover {
   position: absolute;
   font-weight: bold;
   font-size: 1rem;
-  top: 0;
+  top: 20px;
   right: 20px;
  
 }
@@ -165,7 +165,7 @@ input[type=text] {
 
 .boutton_icone {
   display: block;
-  font-size: 1rem;
+  text-align: center;
   width: 20px;
 }
 
@@ -176,6 +176,7 @@ input[type=text] {
   align-items: flex-start;
   display: flex;
 }
+
 .englobe_filtre {
    display: flex;
    flex-wrap: wrap;

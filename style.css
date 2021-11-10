@@ -113,20 +113,20 @@ width: auto;
 
 ul {
   display: flex;
-  margin: 0;
+  margin: 3px 0 30px 30px;
   padding: 0;
 }
 
 ul li {
-  border-top: 2px solid transparent;
+  border-top: 3px solid transparent;
   cursor: pointer;
   list-style-type: none;
-  padding-top: 18px;
+  padding-top: 20px;
   margin: 0 0 30px 30px;
 }
 
 li:hover {
-  border-top: 2px solid #0065fc;
+  border-top: 3px solid #0065fc;
   color: #0065fc;
 }
 
@@ -138,10 +138,9 @@ li:hover {
   cursor: pointer;
   display: block;
   margin: 0 0 30px 30px;
-  padding-top: 23px;
+  padding-top: 0;
   text-decoration: none;
   font-size: 0.9rem;
-  
 }
 
 img {
@@ -166,14 +165,14 @@ img {
   background-color: #F2F2F2;
   border-radius: 15px 0 0 15px;
   justify-content: center;
-  padding: 16px;
+  padding: 14px;
   font-size: 1.2rem;
   width: auto;
 }
 
 input[type=text] {
   width: auto;
-  padding: 16px 16px;
+  padding: 13px 13px;
   margin: 18px 0;
   box-sizing: border-box;
   font-size: 1rem;
@@ -186,7 +185,7 @@ input[type=text] {
   background-color: #0065fc;
   border-radius: 0 15px 15px 0;
   color: #FFFFFF;
-  padding: 15px;
+  padding: 12px;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
@@ -299,13 +298,14 @@ section {
 
 .card_hebergements {
   display: flex;
-  max-width: auto;
+  /*max-width: auto;*/
 }
 
 .card_solo {
   background-color: white;
   border-radius: 20px;
   box-shadow: 5px 5px 2px #adadad18;
+  cursor: pointer;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 10px;
@@ -348,6 +348,7 @@ section {
 }
 
 .cardpop {
+  cursor: pointer;
   display: flex;
   background-color: white;
   border-radius: 20px;
@@ -393,7 +394,7 @@ section {
  /* section ACTIVITES */
  
 .activity {
-  max-width: auto;
+  /*max-width: auto;*/
   height: auto;
 }
 
@@ -409,6 +410,7 @@ section {
 .box {
   width: 23%;
   padding: 0;
+  cursor: pointer;
 }
 
 .texte_box {
